@@ -1,0 +1,30 @@
+.board{
+  margin:10% auto;
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  height:600px;
+  flex-wrap:wrap;
+  justify-content: flex-start;
+  box-shadow: 0px 0px 4px 4px #ccc;
+}
+.square{
+  background: #34495e;
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  border:2px solid dodgerblue;
+  font-size: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Helvetica Neue";
+  color:#ecf0f1;
+  cursor: pointer;
+  text-shadow: 1px 1px 8px #dddddd;
+}
+
+.square:hover{
+  background: #6BB9F0;
+  color:#34495e;
+}
